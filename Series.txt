@@ -1,0 +1,10 @@
+title,genero,rating,premios,director,
+Breaking Bad,Drama,9.5,110,Vince Gilligan,
+Game of Thrones,Fantasy,9.3,382,David Benioff
+Stranger Things,Sci-Fi,8.7,64,The Duffer Brothers
+The Crown,Drama,8.7,97,Peter Morgan
+The Mandalorian,Sci-Fi,8.8,44,Jon Favreau
+Black Mirror,Sci-Fi,8.8,62,Charlie Brooker
+Fleabag,Comedy,8.7,54,Phoebe Waller-Bridge
+
+

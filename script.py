@@ -1,17 +1,33 @@
+import tkinter as tk
+from tkinter import filedialog
+from tkinter import messagebox
 import pandas as pd
 
 
-file_name = input("Por favor, ingresa el nombre del archivo de texto (incluyendo la extensión .txt): ")
+def generate_excel():
+    file_path = filedialog.askopenfilename(title="Selecciona un archivo de texto", filetypes=(("Archivos de texto", "*.txt"), ("Todos los archivos", "*.*")))
+    if file_path:
+        with open(file_path, 'r') as file:
+            lines = file.readlines()
 
-with open(file_name, 'r') as file:
-    lines = file.readlines()
+        data = [line.strip().split(',') for line in lines]
 
-data = [line.strip().split(',') for line in lines]
+        df = pd.DataFrame(data[1:], columns=data[0])
+
+        excel_file_name = file_path.replace('.txt', '.xlsx')
+        df.to_excel(excel_file_name, index=False)
+
+        messagebox.showinfo("Éxito", "El archivo Excel se generó exitosamente.")
 
 
-df = pd.DataFrame(data[1:], columns=data[0])
+root = tk.Tk()
+root.config(bg="black")
+root.title("Convertir archivo de texto a Excel")
 
-excel_file_name = file_name.replace('.txt', '.xlsx')
-df.to_excel(excel_file_name, index=False)
+frame = tk.Frame(root)
+frame.pack(padx=20, pady=20)
 
-print("Archivo Excel generado exitosamente.")
+button = tk.Button(frame, text="Seleccionar archivo", command=generate_excel,bg="green",fg="black")
+button.pack()
+
+root.mainloop()
