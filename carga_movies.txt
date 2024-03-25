@@ -1,0 +1,37 @@
+title,genero,rating,premios,director,
+Avatar,Ciencia ficción,5,4,James Cameron,
+Titanic,Romance,4.5,11,James Cameron
+The Godfather,Crimen,5,3,Francis Ford Coppola
+The Shawshank Redemption,Drama,5,7,Frank Darabont
+The Dark Knight,Acción,4.8,8,Christopher Nolan
+Schindler's List,Biografía,4.9,7,Steven Spielberg
+Pulp Fiction,Crimen,4.7,7,Quentin Tarantino
+Fight Club,Drama,4.6,1,David Fincher
+Forrest Gump,Drama,4.8,6,Robert Zemeckis
+Inception,Ciencia ficción,4.9,4,Christopher Nolan
+The Lord of the Rings,Aventura,4.8,11,Peter Jackson
+The Matrix,Ciencia ficción,4.6,4,Lana Wachowski, Lilly Wachowski
+Goodfellas,Crimen,4.7,5,Martin Scorsese
+The Silence of the Lambs,Crimen,4.7,5,Jonathan Demme
+The Departed,Crimen,4.7,4,Martin Scorsese
+Saving Private Ryan,Bélico,4.6,5,Steven Spielberg
+The Green Mile,Drama,4.8,4,Frank Darabont
+Gladiator,Acción,4.7,5,Ridley Scott
+The Prestige,Misterio,4.8,2,Christopher Nolan
+Interstellar,Ciencia ficción,4.9,5,Christopher Nolan
+The Lion King,Animación,4.8,2,Roger Allers, Rob Minkoff
+The Pianist,Biografía,4.8,3,Roman Polanski
+The Usual Suspects,Crimen,4.7,2,Bryan Singer
+Se7en,Crimen,4.7,1,David Fincher
+Léon: The Professional,Acción,4.6,2,Luc Besson
+The Sixth Sense,Misterio,4.7,1,M. Night Shyamalan
+Gone with the Wind,Romance,4.5,8,Victor Fleming
+The Great Gatsby,Drama,4.6,2,Baz Luhrmann
+The Revenant,Aventura,4.7,3,Alejandro González Iñárritu
+Braveheart,Bélico,4.7,5,Mel Gibson
+The Truman Show,Comedia-drama,4.6,3,Peter Weir
+The Social Network,Biografía,4.7,3,David Fincher
+The Shining,Terror,4.6,3,Stanley Kubrick
+The Grand Budapest Hotel,Comedia-drama,4.7,4,Wes Anderson
+La La Land,Musical,4.8,6,Damien Chazelle
+
